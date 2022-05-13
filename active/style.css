@@ -1,0 +1,50 @@
+body {
+    background-color: #9e4343;
+}
+
+p.parágrafo1{
+    color:rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#desenho1 {
+	border: 10px solid #cf3939;
+	max-width:400px;
+}
+
+#desenho1:active {
+	border: 15px solid #dbdbdb;
+	transform: scale(-0.6);
+}
+
+#desenho2 {
+	border: 10px solid #cf3939;
+	max-width:400px;
+}
+
+#desenho2:active {
+	border: 10px solid #dbdbdb;
+	transform: rotateZ(-180deg) scale(0.9);
+   
+}
+
+#desenho3 {
+	border: 10px solid #cf3939;
+	max-width:400px;
+}
+
+#desenho3:active {
+	border: 10px solid #dbdbdb;
+	transform: rotateZ(60deg);
+}
+
+#desenho4 {
+	border: 10px solid #cf3939;
+	max-width:400px;
+}
+
+#desenho4:active {
+	border: 10px solid #dbdbdb;
+	transform: rotateZ(-60deg);
+}
